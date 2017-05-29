@@ -59,7 +59,7 @@
 
 ```javascript
     $.ajax({
-      url: "/cats",
+      url: "http://api.catmash.latelier.co/cats",
       dataType: "json",
       type: "GET",
       success: function(r) {
@@ -124,10 +124,10 @@
 
 ```javascript
     $.ajax({
-      url: "/cats",
+      url: "http://api.catmash.latelier.co/cats",
       dataType: "json",
       type: "POST",
-      data: {url: "https://cutestcat.io/cat001.png"},
+      data: {url: "http://24.media.tumblr.com/tumblr_lr3t7tLxtH1qlyuwso1_1280.jpg"},
       success : function(r) {
         console.log(r);
       }
@@ -193,7 +193,7 @@
 
 ```javascript
     $.ajax({
-      url: "/match",
+      url: "http://api.catmash.latelier.co/match",
       dataType: "json",
       type: "GET",
       success: function(r) {
@@ -285,10 +285,10 @@
 
 ```javascript
     $.ajax({
-      url: "/cats",
+      url: "http://api.catmash.latelier.co/match",
       dataType: "json",
       type: "POST",
-      data: {matchID: "matchId", winnerId: "winnerId"},
+      data: {matchID: "592c1b699f3254001cff6387", winnerId: "592a0d9138b2641b4335b503"},
       success : function(r) {
         console.log(r);
       }
