@@ -11,8 +11,8 @@ La documentation de l'API est disponible sur [http://doc.catmash.latelier.co/](h
   
   
 L'application devra donc être composée de deux pages :  
-⋅⋅⋅Une page pour voter  
-⋅⋅⋅Une page pour voir tous les chats avec leur score  
+   Une page pour voter  
+   Une page pour voir tous les chats avec leur score  
 
 L’application doit pouvoir être utilisable depuis Google Chrome.
 La technologie est libre. 

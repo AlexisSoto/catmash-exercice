@@ -8,8 +8,8 @@ Le but de cet exercice est de développer une mini application web qui permet d
 En se basant sur l'UX de [Facemash](https://github.com/AlexisSoto/catmash-exercice/blob/master/img/facemash.jpg) et les données de [cats.json](https://latelier.co/data/cats.json).  
 
 L'application devra donc être composée de deux pages :  
-⋅⋅⋅Une page pour voter  
-⋅⋅⋅Une page pour voir tous les chats avec leur score  
+   Une page pour voter  
+   Une page pour voir tous les chats avec leur score  
 
 L’application doit pouvoir être utilisable depuis Google Chrome.
 La technologie est libre. 
