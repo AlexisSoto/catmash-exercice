@@ -30,20 +30,17 @@
 ```javascript
     [
         {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
         },
         {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
         },
         {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
         }
@@ -98,8 +95,7 @@
     **Content:** 
 ```javascript
     {
-        "_id": "catId",
-        "__v": 0,
+        "id": "catId",
         "score": 0,
         "url": "catUrl"
     }
@@ -162,20 +158,17 @@
 ```javascript
     {
       "match": {
-        "__v": 0,
         "winnerId": null,
-        "_id": "matchId",
+        "id": "matchId",
         "date": "yyyy-mm-ddThh:mm:ss.msZ",
         "cats": [
           {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
           },
           {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
           }
@@ -234,20 +227,17 @@
 ```javascript
     {
         "match": {
-        "__v": 0,
         "winnerId": "catId",
-        "_id": "matchId",
+        "id": "matchId",
         "date": "yyyy-mm-ddThh:mm:ss.msZ",
         "cats": [
           {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 1,
             "url": "catUrl"
           },
           {
-            "_id": "catId",
-            "__v": 0,
+            "id": "catId",
             "score": 0,
             "url": "catUrl"
           }
